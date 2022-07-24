@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Sans:wght@400,700&display=swap');
+
+:root {
+    --primary-soft-red: hsl(10, 79%, 65%);
+    --primary-cyan: hsl(186, 34%, 60%);
+    --neutral-dark-brown: hsl(25, 47%, 15%);
+    --neutral-medium-brown: hsl(28, 10%, 53%);
+    --neutral-cream: hsl(27, 66%, 92%);
+    --neutral-very-pale-orange: hsl(33, 100%, 98%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'DM Sans';
+    background-color: var(--neutral-cream);
+}
+
+.expense-chart-container{
+    width: 90vw;
+    padding-top: 2rem;
+    margin: 0 auto;
+}
+
+.my-balance-container {
+    background-color: var(--primary-soft-red);
+    color: var(--neutral-very-pale-orange);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+.my-balance-container img {
+    height: 2.75rem;
+}
+
+.my-balance {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    font-size: 1rem;
+}
+
+.my-balance-amount {
+    font-size: 1.5rem;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.spending-container {
+    background-color: var(--neutral-very-pale-orange);
+    margin-top: 1rem;
+    border-radius: 1rem;
+    padding: 1.25rem;
+}
+
+.spending-container {
+    font-size: 1rem;
+}
+
+hr {
+    border: none;
+    height: .125rem;
+    margin: 1rem 0;
+    background-color: var(--neutral-cream);
+}
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
