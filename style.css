@@ -62,8 +62,9 @@ body {
     padding: 1.25rem;
 }
 
-.spending-container {
-    font-size: 1rem;
+.spending-last-week h2 {
+    font-size: 1.5rem;
+    padding-bottom: 3rem;
 }
 
 hr {
@@ -71,6 +72,63 @@ hr {
     height: .125rem;
     margin: 1rem 0;
     background-color: var(--neutral-cream);
+}
+
+.day-label {
+    font-size: .75rem;
+    font-weight: 700;
+    color: var(--neutral-medium-brown);
+}
+
+.spending-chart {
+    display: flex;
+    justify-content: space-between;
+}
+
+.spending-bar-container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap: .5rem;
+}
+
+.spending-bar {
+    width: 2rem;
+    border-radius: 5px;
+    background-color: var(--primary-soft-red);
+}
+
+.mon-spending-bar {
+    height: 33.33px;
+}
+
+.tue-spending-bar {
+    height: 66.66px;
+}
+
+.wed-spending-bar {
+    height: 100px;
+}
+
+.thu-spending-bar {
+    height: 50px;
+}
+
+.fri-spending-bar {
+    height: 20px;
+}
+
+.sat-spending-bar {
+    height: 70px;
+}
+
+.sun-spending-bar {
+    height: 50px;
+}
+
+.highest-day {
+    background-color: var(--primary-cyan)!important;
 }
 
 
