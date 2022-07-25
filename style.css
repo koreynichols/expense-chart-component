@@ -131,7 +131,35 @@ hr {
     background-color: var(--primary-cyan)!important;
 }
 
+.spending-stats {
+    display: flex;
+    justify-content: space-between;
+}
 
+.spending-this-month, .spending-difference {
+    display: flex;
+    flex-direction: column;
+}
+
+.spending-difference {
+    justify-content: end;
+    align-items: flex-end;
+    font-size: .825rem;
+    font-weight: 700;
+    line-height: .625rem;
+}
+
+.spending-month-label {
+    font-size: .825rem;
+    font-weight: 400;
+    padding: .5rem 0;
+    color: var(--neutral-medium-brown);
+}
+
+.month-spending-amount {
+    font-size: 2rem;
+    font-weight: 700;
+}
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
